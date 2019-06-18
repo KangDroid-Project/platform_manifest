@@ -153,7 +153,7 @@
   <project path="external/epid-sdk" name="platform/external/epid-sdk" groups="pdk" />
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="kangdroid-project/platform_external_f2fs-tools" groups="pdk" revision="q" remote="github" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
