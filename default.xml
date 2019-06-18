@@ -14,7 +14,7 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
-  <project path="build/make" name="platform/build" groups="pdk" >
+  <project path="build/make" name="kangdroid-project/platform_build" groups="pdk" revision="q" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
