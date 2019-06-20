@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Github remote -->
+    <remote name="github"
+        fetch="https://github.com/" />
+
+    
+    <!-- Shamu Related thing -->
+    <project path="device/moto/shamu" name="Hexa-Project-Device/android_device_moto_shamu" remote="github" revision="q" />
+    <project path="vendor/motorola" name="Hexa-Project-Device/android_vendor_motorola_shamu" remote="github" revision="q" />
+
+    <!-- Build System -->
+    <project path="build/make" name="kangdroid-project/platform_build" groups="pdk" revision="q" remote="github" >
+      <copyfile src="core/root.mk" dest="Makefile" />
+      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+      <linkfile src="core" dest="build/core" />
+      <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+      <linkfile src="target" dest="build/target" />
+      <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="kangdroid-project/platform_build_soong" groups="pdk,tradefed" remote="github" revision="master" >
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!-- Core System -->
+    <project path="frameworks/base" name="kangdroid-project/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="q" remote="github"/>
+
+</manifest>
