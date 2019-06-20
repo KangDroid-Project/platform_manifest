@@ -28,4 +28,7 @@
     <!-- Core System -->
     <project path="frameworks/base" name="kangdroid-project/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="q" remote="github"/>
 
+    <!-- HW Specific -->
+    <project path="hardware/qcom/display" name="kangdroid-project/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="q" remote="github"/>
+
 </manifest>
