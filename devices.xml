@@ -24,5 +24,6 @@
   <project path="device/samsung/msm8974-common" name="LineageOS/android_device_samsung_msm8974-common"/>
   <project path="vendor/samsung/mondrianwifi" name="Hexa-Project-Device/android_vendor_samsung_mondrianwifi" revision="cm-13.0"/>
   <project path="kernel/samsung/mondrianwifi" name="LineageOS/android_kernel_samsung_mondrianwifi" revision="cm-14.1"/>
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="lineage-15.1"/>
 
 </manifest>
