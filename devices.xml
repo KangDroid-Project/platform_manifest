@@ -20,6 +20,7 @@
 
   <project path="device/samsung/mondrianwifi" name="Hexa-Project-Device/android_device_samsung_mondrianwifi" revision="oreo"/>
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common"/>
   <project path="device/samsung/msm8974-common" name="LineageOS/android_device_samsung_msm8974-common"/>
   <project path="vendor/samsung/mondrianwifi" name="Hexa-Project-Device/android_vendor_samsung_mondrianwifi" revision="cm-13.0"/>
   <project path="kernel/samsung/mondrianwifi" name="LineageOS/android_kernel_samsung_mondrianwifi" revision="cm-14.1"/>
