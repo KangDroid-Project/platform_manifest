@@ -30,5 +30,6 @@
 
     <!-- HW Specific -->
     <project path="hardware/qcom/display" name="kangdroid-project/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="q" remote="github"/>
+    <project path="hardware/qcom/audio" name="kangdroid-project/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="q" remote="github"/>
 
 </manifest>
