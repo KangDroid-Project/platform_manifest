@@ -28,6 +28,7 @@
 
     <!-- Core System -->
     <project path="frameworks/base" name="kangdroid-project/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="q" remote="github"/>
+    <project path="external/f2fs-tools" name="kangdorid-project/platform_external_f2fs-tools" groups="pdk" revision="q" remote="github"/>
 
     <!-- Sepolicy for shamu -->
     <!--<project path="system/sepolicy" name="kangdroid-project/platform_system_sepolicy" groups="pdk" revision="q" remote="github"/> -->
